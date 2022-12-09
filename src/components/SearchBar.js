@@ -9,7 +9,7 @@ const SearchBar = ({ onSubmit }) => {
   return (
     <form onSubmit={onFormSubmit} className="ui form">
   <div className="field">
-    <label>Image Search</label>
+    <label>Image Search(画像検索)</label>
     <input 
     type="text" 
     name="search" 
